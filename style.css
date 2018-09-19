@@ -1,0 +1,368 @@
+
+body{
+background: #fbfbfb;
+margin: auto;
+}
+
+main{
+  background-color: #ffffff;
+}
+
+/* weather buttons start*/
+nav img{
+  display:relative;
+}
+.weather-info{
+background: #ffffff;
+
+}
+
+.weather-info div{
+  text-align: center;
+}
+
+.weather-info #submitCity{
+border-radius: 5px;
+background: #bfbfbf;
+text-align: center;
+color: #847676;
+font-weight: bold;
+text-transform: uppercase;
+
+}
+
+.weather-info  #submitCity:hover{
+  border-radius: 5px;
+  background: #d9dade;
+  text-align: center;
+  color: #847676;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 0.01s background-color;
+}
+
+
+.weather-info #weather-condition{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.weather-info #weather{
+  padding-top: 30px;
+  padding-left: 800px;
+
+}
+.weather-info #forecast h3{
+  padding-left: 700px;
+  background-repeat: no-repeat;
+}
+
+.weather-info #forecast #date {
+  text-align: center;
+  padding-top: 50px;
+}
+.weather-info #forecast #city-title {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+/* weather buttons end */
+header{
+/* position: relative; */
+/* width: 2000px; */
+padding-bottom: 500px;
+background:url(image/usethis.jpg);
+background-attachment: fixed;
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+/* height: 100vh; */
+justify-content: center;
+}
+
+header  .center-menu .hList{
+    text-align: center;
+
+}
+header  .center-menu {
+    text-align: center;
+    padding-top: 60px;
+
+
+}
+  header .testing{
+    text-align:center;
+  }
+
+
+header h3{
+padding-top: 300px;
+color: #c9faff;
+text-decoration-color: black;
+font-family: Palatino, URW Palladio L, serif;
+font-size: 40px;
+margin-left: inherit;
+text align: center;
+letter-spacing: 10px;
+display:block;
+margin: 0;
+text-align: center;
+text-transform: uppercase;
+font-weight: 600;
+font-family: "Cera Pro";
+
+
+}
+
+
+ h3 span{
+	color: #a07b7b;
+	font-family: New Century ;
+	font-weight: 900;
+  font-size: 50px;
+}
+
+header p{
+  color: #e4b9b9;
+  min-height: initial;
+  text-align: center;
+  font-size: 35px;
+}
+
+header p1{
+  display: block;
+  font-size: 55px;
+  text-align: center;
+}
+
+.menu-title{
+  border: 5px solid #5d5d94;
+
+
+}
+/* sample photo */
+
+main article{
+text-align: center;
+background-color: white;
+}
+
+.fotorama-shell{
+text-align: center;
+
+}
+
+.fotorama-shell p{
+	color: #e2c8c8;
+	font-family: Palatino, URW Palladio L, serif;
+	font-size: 3em;
+	text-align: center;
+	letter-spacing: 10px;
+	}
+/* sample photo */
+
+
+
+/* .outdoor{
+  padding-top: 800px;
+  position:absolute;
+  display: flex;
+  text-align: center;
+
+}
+
+.disney{
+  padding-top: 1300px;
+  position:absolute;
+  display: flex;
+
+}
+
+.travel{
+  padding-top: 1600px;
+  position:absolute;
+  display: flex;
+
+}
+
+.outdoor section{
+  padding-top: 200px;
+}
+.right h2{
+  color: #71a2ca;
+	font-family: Palatino, URW Palladio L, serif;
+  text-align: center;
+	letter-spacing: 5px;;
+  font-family: Palatino, URW Palladio L, serif;
+  text-align: center;
+}
+
+.right p{
+  font-size: 16px;
+font-family: "Work Sans","HelveticaNeue","Helvetica Neue",sans-serif;
+color: #3d4246;
+line-height: 1.5;
+letter-spacing: 1px;
+font-weight: bold;
+text-align: center;
+}
+
+
+
+
+
+.outdoor {
+
+}
+
+
+.disney{
+  display: flex;
+}
+.disney section{
+
+text-align: center;
+
+}
+
+
+.travel{
+  display: flex;
+}
+.travel section{
+text-align: center;
+
+}
+
+
+
+
+
+.right h2{
+	text-align: center;
+
+}
+.right p{
+	white-space: pre;
+  text-align: center;
+
+} */
+.footer-div{
+  padding-left: 50px;
+  padding-right: 50px;
+}
+h4{
+font-weight: normal;
+font-family: 'arial_rounded_bold', sans-serif;
+text-align: center;
+font-size: 10px;
+background-color: white;
+padding-top: 100px;
+padding-bottom: 20px;
+border-bottom: 1px solid black;
+margin-left: 100px;
+margin-right: 100px;
+}
+
+footer{
+  background-color: #ffffff;
+
+
+}
+.social-links a {
+	font-size: 30px;
+	padding: 30px;
+	display: inline-block;
+	color: #364d5d;
+
+}
+.wrap {
+	/* padding-top: 100px;
+  padding-left: 100px; */
+  text-align: center;
+}
+
+/* media queries */
+/* @media screen and (max-width: 950px){
+header .menu{
+  padding-left: 30%;
+  padding-right: 30%;
+
+  }
+} */
+
+
+@media screen and (max-width: 700px){
+.weather-info #weather-condition #rain img{
+    width: 50%;
+  }
+}
+@media screen and (max-width: 700px){
+header h3{
+  font-size: 30px;
+  text-align: center;
+  }
+}
+@media screen and (max-width: 700px){
+header span{
+  font-size: 40px;
+  text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px){
+ header{
+  padding-bottom: 300px;
+
+  }
+}
+@media screen and (max-width: 600px){
+ header h3, .fotorama-shell p{
+  font-size: 25px;
+text-align: center;
+
+  }
+}
+/* @media screen and (max-width: 500px){
+header h3{
+  font-size: 27px;
+  text-align: center;
+  }
+}
+@media screen and (max-width: 500px){
+header span{
+  font-size: 30px;
+  text-align: center;
+  }
+} */
+
+
+@media screen and (max-width: 600px){
+header h3{
+  font-size: 19px;
+  letter-spacing: 5px;
+  font-weight: 400;
+  text-align: center;
+  }
+}
+@media screen and (max-width: 600px){
+header span{
+  font-size: 23px;
+  text-align: center;
+  }
+@media screen and (max-width: 390px){
+ header{
+  padding-bottom: 200px;
+
+  }
+}
+
+@media screen and (max-width: 350px){
+  .social-links a {
+  	font-size: 30px;
+  	padding: 10px;
+  	display: inline-block;
+  	color: #black;
+
+  }
+}
