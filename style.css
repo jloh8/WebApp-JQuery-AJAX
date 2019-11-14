@@ -68,15 +68,12 @@ text-transform: uppercase;
 }
 /* weather buttons end */
 header{
-/* position: relative; */
-/* width: 2000px; */
 padding-bottom: 500px;
 background:url(image/usethis.jpg);
 background-attachment: fixed;
 background-size: cover;
 background-repeat: no-repeat;
 background-position: center;
-/* height: 100vh; */
 justify-content: center;
 }
 
@@ -159,94 +156,7 @@ text-align: center;
 	text-align: center;
 	letter-spacing: 10px;
 	}
-/* sample photo */
 
-
-
-/* .outdoor{
-  padding-top: 800px;
-  position:absolute;
-  display: flex;
-  text-align: center;
-
-}
-
-.disney{
-  padding-top: 1300px;
-  position:absolute;
-  display: flex;
-
-}
-
-.travel{
-  padding-top: 1600px;
-  position:absolute;
-  display: flex;
-
-}
-
-.outdoor section{
-  padding-top: 200px;
-}
-.right h2{
-  color: #71a2ca;
-	font-family: Palatino, URW Palladio L, serif;
-  text-align: center;
-	letter-spacing: 5px;;
-  font-family: Palatino, URW Palladio L, serif;
-  text-align: center;
-}
-
-.right p{
-  font-size: 16px;
-font-family: "Work Sans","HelveticaNeue","Helvetica Neue",sans-serif;
-color: #3d4246;
-line-height: 1.5;
-letter-spacing: 1px;
-font-weight: bold;
-text-align: center;
-}
-
-
-
-
-
-.outdoor {
-
-}
-
-
-.disney{
-  display: flex;
-}
-.disney section{
-
-text-align: center;
-
-}
-
-
-.travel{
-  display: flex;
-}
-.travel section{
-text-align: center;
-
-}
-
-
-
-
-
-.right h2{
-	text-align: center;
-
-}
-.right p{
-	white-space: pre;
-  text-align: center;
-
-} */
 .footer-div{
   padding-left: 50px;
   padding-right: 50px;
@@ -277,19 +187,8 @@ footer{
 
 }
 .wrap {
-	/* padding-top: 100px;
-  padding-left: 100px; */
   text-align: center;
 }
-
-/* media queries */
-/* @media screen and (max-width: 950px){
-header .menu{
-  padding-left: 30%;
-  padding-right: 30%;
-
-  }
-} */
 
 
 @media screen and (max-width: 700px){
@@ -323,18 +222,7 @@ text-align: center;
 
   }
 }
-/* @media screen and (max-width: 500px){
-header h3{
-  font-size: 27px;
-  text-align: center;
-  }
-}
-@media screen and (max-width: 500px){
-header span{
-  font-size: 30px;
-  text-align: center;
-  }
-} */
+
 
 
 @media screen and (max-width: 600px){
