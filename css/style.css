@@ -1,0 +1,75 @@
+
+
+body {
+	font-family: 'Raleway', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	margin: 0;
+	/* text-transform: uppercase; */
+	letter-spacing: .02em;
+	text-align: center;
+	color: #44545E;
+}
+
+
+
+/* ----------------------------------------
+Typography
+------------------------------------------- */
+.span4 img {
+    margin-right: 10px;
+}
+.span4 .img-left {
+    float: left;
+}
+.span4 .img-right {
+    float: right;
+}
+
+a {
+	text-decoration: none;
+	color: #bd5d38;
+	font-weight: 600;
+	transition: all .3s ease-in-out;
+}
+
+a:hover {
+	color: #44545E;
+}
+
+
+
+/* ----------------------------------------
+Header
+------------------------------------------- */
+
+
+nav {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: white;
+	z-index: 100;
+}
+
+ul a {
+	text-transform: none;
+}
+
+ul {
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	padding: 3px 60px;
+}
+
+nav a {
+	font-weight: 600;
+	letter-spacing: 0.75px;
+
+	display: inline-block;
+	border-bottom: none;
+}
