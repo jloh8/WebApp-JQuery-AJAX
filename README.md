@@ -36,7 +36,7 @@ http://api.openweathermap.org/data/2.5/weather?q=[ZIP CODE GOES HERE],us?units=i
 ````
 ## Walk-through
 
-1. **Make an event listener**
+1. **Event listener**
   - Target id 'submitCity'
   - The on() method attaches one or more event handlers for the selected elements.
 ````Javascript
@@ -63,9 +63,9 @@ Passing an object literal to the ajax method.
 });
 ````
 
-3. ** show(data) function**
+3. **show(data) function**
 
-  -  Conditional statements that dictates which image pops up according to local weather.
+  - Conditional statements that dictates which image pops up according to local weather.
 
 ````Javascript
 function show(data){
