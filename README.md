@@ -88,7 +88,7 @@ function show(data){
 };
 ````
 >### Illustration (before)
-![before](image/before.jpg)
+![before](image/before.JPG)
 
 >### Illustration (after)
 ![after](image/after.JPG)
