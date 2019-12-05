@@ -87,9 +87,8 @@ function show(data){
               }
 };
 ````
-
-##Illustration (before)
+>### Illustration (before)
 ![before](image/before.jpg)
 
-##Illustration (after)
-![after]image/after.JPG
+>### Illustration (after)
+![after](image/after.JPG)
