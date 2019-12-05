@@ -87,4 +87,4 @@ function show(data){
               }
 };
 ````
-![uber_getpriceestimate](image\emoji.jpg)
+![uber_getpriceestimate](image/emoji.jpg)
