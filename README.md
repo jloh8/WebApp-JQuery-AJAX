@@ -11,7 +11,7 @@ Display jQuery AJAX methods used to perform an AJAX (asynchronous HTTP) request.
 Clone the repository and change directories.
 
 ```bash
-$ git https://github.com/james-priest/local-weather-app.git
+$ git https://github.com/jloh8/WebApp-JQuery-AJAX.git
 $ cd local-weather-app
 ```
 
